@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="crm.com.campaign.createcampaign">
+        <methods>
+          <include name="BM"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="AS"/>
+          <include name="AT"/>
+          <include name="AM"/>
+          <include name="createcampaigntest"/>
+        </methods>
+      </class> <!-- crm.com.campaign.createcampaign -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

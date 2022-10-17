@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="BROWSER" value="firefox"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="crm.com.campaign.createcampaign">
+        <methods>
+          <include name="BM"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AT"/>
+          <include name="AM"/>
+          <include name="createcampaigntest"/>
+        </methods>
+      </class> <!-- crm.com.campaign.createcampaign -->
+      <class name="product.pomdeleteproduct">
+        <methods>
+          <include name="BM"/>
+          <include name="BC"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- product.pomdeleteproduct -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
