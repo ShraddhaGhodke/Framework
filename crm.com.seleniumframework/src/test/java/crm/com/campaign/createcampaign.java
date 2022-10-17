@@ -137,6 +137,7 @@ public class createcampaign extends BaseClass {
 				Actions act = new Actions(driver);
 				act.moveToElement(ele).perform();
 				driver.findElement(By.xpath("//a[.='Sign Out']")).click();
+				System.out.println("github successfull");
 	}
 */
 }
